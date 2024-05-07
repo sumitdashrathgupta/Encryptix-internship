@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)), url("Narendra-Modi-AFP_d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+
+span{
+    color: orange;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 0;
+
+    & h1 {
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
+     
+}
+
+p{
+    width: 70%;
+    margin: auto;
+    line-height: 31px;
+    font-size: 1.2rem;
+    text-align: center;
+}
