@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Gupta - Personal Fortfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fave.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Sumit.dev</a>
+        </div>
+        <nav class="navabar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <!-- First Section -->
+            <div class="text-home">
+                <p>Hi,Myself</p>
+                <h1>Sumit Gupta</h1>
+                <p>And I'm a <span id="element"></span></p>
+                <div class="teck-stack">
+                    <h2>Tech Stack</h2>
+                    <p>|</p>
+                    <div class="icon-tech">
+                        <ul>
+                            <li><img src="https://skillicons.dev/icons?i=html" alt=""></li>
+                            <li><img src=" https://skillicons.dev/icons?i=css" alt=""></li>
+                            <li><img src=" https://skillicons.dev/icons?i=javascript" alt=""></li>
+                            <li><img src=" https://skillicons.dev/icons?i=tailwind" alt=""></li>
+                            <li><img src=" https://skillicons.dev/icons?i=react" alt=""></li>
+                            <li><img src=" https://skillicons.dev/icons?i=figma" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="soicle">
+                    <i class='bx bxl-linkedin-square'></i>
+                    <i class='bx bxl-github'></i>
+                </div>
+            </div>
+            <!-- second Secontion -->
+            <div class="img-home">
+                <img src="fave.png" alt="">
+            </div>
+        </section>
+       <section class="about" id="about">
+             <div class="image-section">
+                <img src="about.jpg" alt="">
+             </div>
+             <div class="about-section">
+                <h3>ABOUT ME</h3>
+                <h4>Front-end Developer 💻</h4>
+                <p>Hey, my name is Sumit, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.</p>
+             </div>
+       </section>
+       <section class="project" id="project">
+        <!-- <h3>PROJECT</h3> -->
+        <div class="project-section">
+            <h4>New projects coming soon.. 🤠</h4>
+        </div>
+       </section>
+       <section class="contact" id="contact">
+            <p>CONTACT</p>
+            <h3>Don't be shy! Hit me up! 👇</h3>
+           <div class="contact-sys">
+            <div class="icon">
+                <i class='bx bx-envelope'> <a href="mailto:sumitdashrathgupta@gmail.com">sumitdashrathgupta@gmail.com</a></i>
+            </div>
+       </section>
+    </main>
+    <footer>
+            <p>Copyright © 2024. All rights are reserved</p>  
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer.', 'UI/UX Design.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
